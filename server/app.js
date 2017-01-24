@@ -18,5 +18,5 @@ app.get('/', function(req, res) {
 });
 
 app.listen(config.SERVER_PORT, function() {
-  console.log('listening at http:localhost:3001');
+  console.log('Servver listening at http:localhost:' + config.SERVER_PORT);
 });
