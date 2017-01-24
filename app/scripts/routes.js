@@ -43,11 +43,9 @@ define([
         if (this.currentView) this.currentView.close();
 
         // set the data-route attr in the body tag
-        if (currentRoute[0] === '') {
-          $('body').attr('data-route', 'home');
-        } else {
-          $('body').attr('data-route', currentRoute[0]).attr('data-deep-route', currentRoute[1] ? currentRoute[1] : '');
-        }
+        $('body')
+          .attr('data-route', currentRoute[0] !== '' ? currentRoute[0] : 'home')
+          .attr('data-deep-route', currentRoute[1] !== '' ? currentRoute[1] : null);
 
         // RENDER the VIEW on ROUTE CHANGE!
         $(selector).html(view.render());
