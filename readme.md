@@ -1,6 +1,6 @@
 # Requirejs Backbone Bootstrap-sass
 
-A simple scafolding client with Backbone and Requirejs
+A single-page app built with Backbone and Requirejs. This is a complete setup featuring an Express server, a gruntfile managing the common tasks and a single page web app built on top of Require.js and Backbone.js. The UI framework of choice here is Twitter Bootstrap with Sass.
 
 ### Getting started
 
