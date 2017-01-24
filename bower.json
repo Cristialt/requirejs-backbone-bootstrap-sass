@@ -1,0 +1,29 @@
+{
+  "name": "requirejs-backbone-bootstrap-sass",
+  "description": "",
+  "main": "server/app.js",
+  "authors": [
+    "Cristi Maghiar <cristi@uix.ro>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Cristialt/requirejs-backbone-bootstrap-sass",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.2",
+    "text": "requirejs-text#^2.0.15",
+    "lodash": "^4.17.3",
+    "backbone": "^1.3.3",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "resolutions": {
+    "requirejs": "^2.3.2"
+  }
+}

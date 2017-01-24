@@ -1,0 +1,17 @@
+node_modules/
+app/scripts/components/
+.sass-cache
+.DS_Store
+.idea
+npm-debug.log
+*.css
+
+/app/scripts/app.min.js
+/tmp/
+/dist/
+/server_dist/
+/.tmp/
+/app-build/
+/app/css/
+/app/scripts/utils/config.js
+/app/scripts/templates.js

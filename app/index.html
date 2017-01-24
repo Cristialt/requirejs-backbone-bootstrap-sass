@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css scss/app.css -->
+    <link rel="stylesheet" href="app/css/app.css">
+    <!-- endbuild -->
+  </head>
+
+  <body class="fixed-left widescreen">
+
+    <!--[if lt IE 10]>
+    <p class="browsehappy">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+      your browser</a> to improve your experience.
+    </p>
+    <![endif]-->
+
+    <section id="data-spinner" class="loading"></section>
+    <section id="api-view"></section>
+    <section>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div id="ui-view"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Javascript: requirejs and the main module -->
+    <script data-main="app/scripts/main.js" src="app/scripts/components/requirejs/require.js"></script>
+  </body>
+</html>
